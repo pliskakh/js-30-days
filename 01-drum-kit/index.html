@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Drum Kit</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+
+    <section class="drumkit">
+        <div class="keyboard">
+            <div class="key" data-key="81">
+                <kbd>Q</kbd><span class="sound">Clap</span> <!-- /.sound -->
+                <audio src="sounds/clap.wav" data-key="81"></audio>
+            </div>
+            <!-- /.key -->
+            <div class="key" data-key="87">
+                <kbd>W</kbd><span class="sound">Hihat</span> <!-- /.sound -->
+                <audio src="sounds/hihat.wav" data-key="87"></audio>
+            </div>
+            <!-- /.key -->
+            <div class="key" data-key="69">
+                <kbd>E</kbd><span class="sound">Kick</span> <!-- /.sound -->
+                <audio src="sounds/kick.wav" data-key="69"></audio>
+            </div>
+            <!-- /.key -->
+            <div class="key" data-key="82">
+                <kbd>R</kbd><span class="sound">Openhat</span> <!-- /.sound -->
+                <audio src="sounds/openhat.wav" data-key="82"></audio>
+            </div>
+            <!-- /.key -->
+            <div class="key" data-key="84">
+                <kbd>T</kbd><span class="sound">Boom</span> <!-- /.sound -->
+                <audio src="sounds/boom.wav" data-key="84"></audio>
+            </div>
+            <!-- /.key -->
+            <div class="key" data-key="89">
+                <kbd>Y</kbd><span class="sound">Ride</span> <!-- /.sound -->
+                <audio src="sounds/ride.wav" data-key="89"></audio>
+            </div>
+            <!-- /.key -->
+            <div class="key" data-key="65">
+                <kbd>A</kbd><span class="sound">Snare</span> <!-- /.sound -->
+                <audio src="sounds/snare.wav" data-key="65"></audio>
+            </div>
+            <!-- /.key -->
+            <div class="key" data-key="83">
+                <kbd>S</kbd><span class="sound">Tom</span> <!-- /.sound -->
+                <audio src="sounds/tom.wav" data-key="83"></audio>
+            </div>
+            <!-- /.key -->
+            <div class="key" data-key="68">
+                <kbd>D</kbd><span class="sound">Tink</span> <!-- /.sound -->
+                <audio src="sounds/tink.wav" data-key="68"></audio>
+            </div>
+            <!-- /.key -->
+        </div>
+        <!-- /.keyboard -->
+    </section>
+    <!-- /.drumkit -->
+
+
+    <script src="scripts/app.js"></script>
+
+</body>
+
+</html>
